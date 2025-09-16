@@ -1,5 +1,14 @@
 # Changelog
 
+## [11.6.1](https://github.com/npm/cli/compare/v11.6.0...v11.6.1) (2025-09-16)
+### Bug Fixes
+* [`5db81c3`](https://github.com/npm/cli/commit/5db81c350654dbbe2e1442d623efada9a24e04f1) [#8512](https://github.com/npm/cli/pull/8512) allow concurrent non-local npx calls (#8512) (@jenseng, @wraithgar)
+
+
+### Dependencies
+
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmexec-v10.1.7): `libnpmexec@10.1.7`
+
 ## [11.6.0](https://github.com/npm/cli/compare/v11.5.2...v11.6.0) (2025-09-03)
 ### Features
 * [`bdcc10d`](https://github.com/npm/cli/commit/bdcc10d9f848940987b3d326ccd4673fab2bcfef) [#8359](https://github.com/npm/cli/pull/8359) add support for optional env var replacements in .npmrc (#8359) (@aczekajski, @owlstronaut)
