@@ -740,7 +740,6 @@ graph LR;
   string-width-->strip-ansi;
   strip-ansi-->ansi-regex;
   tar-->chownr;
-  tar-->fs-minipass;
   tar-->isaacs-fs-minipass["@isaacs/fs-minipass"];
   tar-->minipass;
   tar-->minizlib;
